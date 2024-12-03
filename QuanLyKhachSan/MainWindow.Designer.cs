@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.btnMinimize = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -38,11 +37,11 @@
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.ucRegistration1 = new QuanLyKhachSan.UCRegistration();
             this.ucAddRoom1 = new QuanLyKhachSan.UCAddRoom();
+            this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
+            this.ucCheckOut1 = new QuanLyKhachSan.UCCheckOut();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -128,7 +127,7 @@
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
             this.btnRegister.HoverState.Parent = this.btnRegister;
-            this.btnRegister.Location = new System.Drawing.Point(620, 2);
+            this.btnRegister.Location = new System.Drawing.Point(343, 3);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.ShadowDecoration.Parent = this.btnRegister;
@@ -148,13 +147,14 @@
             this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
-            this.btnCheckOut.Location = new System.Drawing.Point(343, 2);
+            this.btnCheckOut.Location = new System.Drawing.Point(620, 2);
             this.btnCheckOut.Margin = new System.Windows.Forms.Padding(2);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.ShadowDecoration.Parent = this.btnCheckOut;
             this.btnCheckOut.Size = new System.Drawing.Size(210, 98);
             this.btnCheckOut.TabIndex = 0;
             this.btnCheckOut.Text = "Thanh Toán";
+            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // btnAddRoom
             // 
@@ -179,6 +179,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.ucCheckOut1);
             this.panel2.Controls.Add(this.ucRegistration1);
             this.panel2.Controls.Add(this.ucAddRoom1);
             this.panel2.Location = new System.Drawing.Point(11, 128);
@@ -186,6 +187,23 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1503, 726);
             this.panel2.TabIndex = 3;
+            // 
+            // ucRegistration1
+            // 
+            this.ucRegistration1.BackColor = System.Drawing.Color.White;
+            this.ucRegistration1.Location = new System.Drawing.Point(-2, -1);
+            this.ucRegistration1.Name = "ucRegistration1";
+            this.ucRegistration1.Size = new System.Drawing.Size(1503, 726);
+            this.ucRegistration1.TabIndex = 1;
+            // 
+            // ucAddRoom1
+            // 
+            this.ucAddRoom1.BackColor = System.Drawing.Color.White;
+            this.ucAddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucAddRoom1.Location = new System.Drawing.Point(-2, -1);
+            this.ucAddRoom1.Name = "ucAddRoom1";
+            this.ucAddRoom1.Size = new System.Drawing.Size(1503, 726);
+            this.ucAddRoom1.TabIndex = 0;
             // 
             // PanelMoving
             // 
@@ -215,26 +233,13 @@
             this.btnClose.TabIndex = 5;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // guna2Elipse1
+            // ucCheckOut1
             // 
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // ucRegistration1
-            // 
-            this.ucRegistration1.BackColor = System.Drawing.Color.White;
-            this.ucRegistration1.Location = new System.Drawing.Point(-2, -1);
-            this.ucRegistration1.Name = "ucRegistration1";
-            this.ucRegistration1.Size = new System.Drawing.Size(1503, 726);
-            this.ucRegistration1.TabIndex = 1;
-            // 
-            // ucAddRoom1
-            // 
-            this.ucAddRoom1.BackColor = System.Drawing.Color.White;
-            this.ucAddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucAddRoom1.Location = new System.Drawing.Point(-2, -1);
-            this.ucAddRoom1.Name = "ucAddRoom1";
-            this.ucAddRoom1.Size = new System.Drawing.Size(1503, 726);
-            this.ucAddRoom1.TabIndex = 0;
+            this.ucCheckOut1.BackColor = System.Drawing.Color.White;
+            this.ucCheckOut1.Location = new System.Drawing.Point(-2, -2);
+            this.ucCheckOut1.Name = "ucCheckOut1";
+            this.ucCheckOut1.Size = new System.Drawing.Size(1503, 726);
+            this.ucCheckOut1.TabIndex = 2;
             // 
             // MainWindow
             // 
@@ -272,7 +277,7 @@
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private UCAddRoom ucAddRoom1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private UCRegistration ucRegistration1;
+        private UCCheckOut ucCheckOut1;
     }
 }
