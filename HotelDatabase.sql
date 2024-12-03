@@ -1,0 +1,47 @@
+﻿CREATE DATABASE QuanLyKhachSan
+GO
+
+USE QuanLyKhachSan
+GO
+
+CREATE TABLE Rooms
+(
+	roomID INT IDENTITY (1, 1) PRIMARY KEY,
+	roomNo NVARCHAR(250) NOT NULL DEFAULT N'Chưa có số phòng',
+	roomType NVARCHAR(250) NOT NULL DEFAULT N'Không xác định',
+	bed NVARCHAR(250) NOT NULL DEFAULT N'Không xác định',
+	price BIGINT NOT NULL DEFAULT 0,
+	booked NVARCHAR(50) NOT NULL DEFAULT N'NO' -- NO || YES
+)
+GO
+
+CREATE TABLE Customer
+(
+	customerID INT IDENTITY PRIMARY KEY,
+	customerName NVARCHAR(250) NOT NULL DEFAULT N'Chưa có tên',
+	mobile BIGINT NOT NULL DEFAULT 0,
+	nationality NVARCHAR(250) NOT NULL DEFAULT N'Không xác định',
+	gender NVARCHAR(50) NOT NULL DEFAULT N'Không xác định',
+	dob DATE NOT NULL DEFAULT GETDATE(),
+	idProof NVARCHAR(250) NOT NULL DEFAULT N'Không xác định',
+	address NVARCHAR(350) NOT NULL DEFAULT N'Không có địa chỉ',
+	checkIn DATE NOT NULL DEFAULT GETDATE(),
+	checkOut DATE,
+	checkOutStatus NVARCHAR(50) NOT NULL DEFAULT N'NO', -- NO || YES
+	roomID INT NOT NULL,
+
+	FOREIGN KEY (roomID) REFERENCES dbo.Rooms(roomID)
+)
+GO
+
+CREATE TABLE Employee
+(
+	employeeID INT IDENTITY PRIMARY KEY,
+	employeeName NVARCHAR(250) NOT NULL DEFAULT N'Không có tên',
+	mobile BIGINT NOT NULL DEFAULT 0,
+	gender NVARCHAR(50) NOT NULL DEFAULT N'Không xác định',
+	emailID NVARCHAR(120) NOT NULL DEFAULT N'Không có email',
+	userName NVARCHAR(150) NOT NULL DEFAULT N'Chưa có username',
+	pass NVARCHAR(150) NOT NULL DEFAULT N'Chưa có mật khẩu'
+)
+GO

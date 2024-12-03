@@ -1,0 +1,15 @@
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.LoginWindow.resources
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainWindow.resources
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCAddRoom.resources
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCRegistration.resources
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\bin\Debug\Guna.UI2.dll
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKh.7BBD220C.Up2Date
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+E:\UIT\New folder (2)\QuanLyKhachSan-018451386a7b118ac69e75611be651bd2e1fdef7\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
