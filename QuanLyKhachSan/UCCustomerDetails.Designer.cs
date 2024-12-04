@@ -76,6 +76,7 @@
             this.cboCustomerType.Size = new System.Drawing.Size(361, 36);
             this.cboCustomerType.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboCustomerType.TabIndex = 45;
+            this.cboCustomerType.SelectedIndexChanged += new System.EventHandler(this.cboCustomerType_SelectedIndexChanged);
             // 
             // dtgvCustomerDetails
             // 

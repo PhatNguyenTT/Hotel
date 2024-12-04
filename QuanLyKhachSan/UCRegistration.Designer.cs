@@ -552,7 +552,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "UCRegistration";
             this.Size = new System.Drawing.Size(1503, 726);
-            this.Load += new System.EventHandler(this.UCRegistration_Load);
             this.Leave += new System.EventHandler(this.UCRegistration_Leave);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -31,11 +31,6 @@ namespace QuanLyKhachSan
             dataReader.Close();
         }
 
-        private void UCRegistration_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void cboRoomBed_SelectedIndexChanged(object sender, EventArgs e)
         {
             cboRoomType.SelectedIndex = -1;
