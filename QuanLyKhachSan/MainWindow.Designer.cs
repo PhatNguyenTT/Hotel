@@ -28,20 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.btnMinimize = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnEmployee = new Guna.UI2.WinForms.Guna2Button();
-            this.btnInformation = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomerDetails = new Guna.UI2.WinForms.Guna2Button();
             this.btnRegister = new Guna.UI2.WinForms.Guna2Button();
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.ucCheckOut1 = new QuanLyKhachSan.UCCheckOut();
             this.ucRegistration1 = new QuanLyKhachSan.UCRegistration();
             this.ucAddRoom1 = new QuanLyKhachSan.UCAddRoom();
             this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
-            this.ucCheckOut1 = new QuanLyKhachSan.UCCheckOut();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.ucCustomerDetails1 = new QuanLyKhachSan.UCCustomerDetails();
+            this.ucEmployee1 = new QuanLyKhachSan.UCEmployee();
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +76,7 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnEmployee);
-            this.panel1.Controls.Add(this.btnInformation);
+            this.panel1.Controls.Add(this.btnCustomerDetails);
             this.panel1.Controls.Add(this.btnRegister);
             this.panel1.Controls.Add(this.btnCheckOut);
             this.panel1.Controls.Add(this.btnAddRoom);
@@ -96,25 +104,27 @@
             this.btnEmployee.Size = new System.Drawing.Size(210, 98);
             this.btnEmployee.TabIndex = 0;
             this.btnEmployee.Text = "Nhân Viên";
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
-            // btnInformation
+            // btnCustomerDetails
             // 
-            this.btnInformation.BackColor = System.Drawing.Color.Transparent;
-            this.btnInformation.BorderRadius = 20;
-            this.btnInformation.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnInformation.CheckedState.Parent = this.btnInformation;
-            this.btnInformation.CustomImages.Parent = this.btnInformation;
-            this.btnInformation.FillColor = System.Drawing.Color.Olive;
-            this.btnInformation.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInformation.ForeColor = System.Drawing.Color.White;
-            this.btnInformation.HoverState.Parent = this.btnInformation;
-            this.btnInformation.Location = new System.Drawing.Point(897, 2);
-            this.btnInformation.Margin = new System.Windows.Forms.Padding(2);
-            this.btnInformation.Name = "btnInformation";
-            this.btnInformation.ShadowDecoration.Parent = this.btnInformation;
-            this.btnInformation.Size = new System.Drawing.Size(210, 98);
-            this.btnInformation.TabIndex = 0;
-            this.btnInformation.Text = "Thông Tin";
+            this.btnCustomerDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btnCustomerDetails.BorderRadius = 20;
+            this.btnCustomerDetails.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnCustomerDetails.CheckedState.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.CustomImages.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.FillColor = System.Drawing.Color.Olive;
+            this.btnCustomerDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
+            this.btnCustomerDetails.HoverState.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.Location = new System.Drawing.Point(897, 2);
+            this.btnCustomerDetails.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCustomerDetails.Name = "btnCustomerDetails";
+            this.btnCustomerDetails.ShadowDecoration.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.Size = new System.Drawing.Size(210, 98);
+            this.btnCustomerDetails.TabIndex = 0;
+            this.btnCustomerDetails.Text = "Thông Tin Chi Tiết";
+            this.btnCustomerDetails.Click += new System.EventHandler(this.btnCustomerDetails_Click);
             // 
             // btnRegister
             // 
@@ -133,7 +143,7 @@
             this.btnRegister.ShadowDecoration.Parent = this.btnRegister;
             this.btnRegister.Size = new System.Drawing.Size(210, 98);
             this.btnRegister.TabIndex = 0;
-            this.btnRegister.Text = "Đăng Ký";
+            this.btnRegister.Text = "Đăng Ký Khách Hàng";
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnCheckOut
@@ -179,6 +189,8 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.ucEmployee1);
+            this.panel2.Controls.Add(this.ucCustomerDetails1);
             this.panel2.Controls.Add(this.ucCheckOut1);
             this.panel2.Controls.Add(this.ucRegistration1);
             this.panel2.Controls.Add(this.ucAddRoom1);
@@ -187,6 +199,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1503, 726);
             this.panel2.TabIndex = 3;
+            // 
+            // ucCheckOut1
+            // 
+            this.ucCheckOut1.BackColor = System.Drawing.Color.White;
+            this.ucCheckOut1.Location = new System.Drawing.Point(-2, -2);
+            this.ucCheckOut1.Name = "ucCheckOut1";
+            this.ucCheckOut1.Size = new System.Drawing.Size(1503, 726);
+            this.ucCheckOut1.TabIndex = 2;
             // 
             // ucRegistration1
             // 
@@ -233,13 +253,46 @@
             this.btnClose.TabIndex = 5;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // ucCheckOut1
+            // guna2Elipse1
             // 
-            this.ucCheckOut1.BackColor = System.Drawing.Color.White;
-            this.ucCheckOut1.Location = new System.Drawing.Point(-2, -2);
-            this.ucCheckOut1.Name = "ucCheckOut1";
-            this.ucCheckOut1.Size = new System.Drawing.Size(1503, 726);
-            this.ucCheckOut1.TabIndex = 2;
+            this.guna2Elipse1.BorderRadius = 30;
+            this.guna2Elipse1.TargetControl = this.ucAddRoom1;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 30;
+            this.guna2Elipse2.TargetControl = this.ucRegistration1;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 30;
+            this.guna2Elipse3.TargetControl = this.ucCheckOut1;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.BorderRadius = 30;
+            this.guna2Elipse4.TargetControl = this.ucCustomerDetails1;
+            // 
+            // ucCustomerDetails1
+            // 
+            this.ucCustomerDetails1.BackColor = System.Drawing.Color.White;
+            this.ucCustomerDetails1.Location = new System.Drawing.Point(-2, -2);
+            this.ucCustomerDetails1.Name = "ucCustomerDetails1";
+            this.ucCustomerDetails1.Size = new System.Drawing.Size(1503, 726);
+            this.ucCustomerDetails1.TabIndex = 3;
+            // 
+            // ucEmployee1
+            // 
+            this.ucEmployee1.BackColor = System.Drawing.Color.White;
+            this.ucEmployee1.Location = new System.Drawing.Point(-1, -1);
+            this.ucEmployee1.Name = "ucEmployee1";
+            this.ucEmployee1.Size = new System.Drawing.Size(1503, 726);
+            this.ucEmployee1.TabIndex = 4;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.BorderRadius = 30;
+            this.guna2Elipse5.TargetControl = this.ucEmployee1;
             // 
             // MainWindow
             // 
@@ -273,11 +326,18 @@
         private Guna.UI2.WinForms.Guna2Button btnEmployee;
         private Guna.UI2.WinForms.Guna2Button btnRegister;
         private Guna.UI2.WinForms.Guna2Button btnCheckOut;
-        private Guna.UI2.WinForms.Guna2Button btnInformation;
+        private Guna.UI2.WinForms.Guna2Button btnCustomerDetails;
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private UCAddRoom ucAddRoom1;
         private UCRegistration ucRegistration1;
         private UCCheckOut ucCheckOut1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private UCCustomerDetails ucCustomerDetails1;
+        private UCEmployee ucEmployee1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
     }
 }

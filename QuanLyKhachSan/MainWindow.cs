@@ -27,6 +27,8 @@ namespace QuanLyKhachSan
             ucAddRoom1.Visible = false;
             ucRegistration1.Visible = false;
             ucCheckOut1.Visible = false;
+            ucCustomerDetails1.Visible = false;
+            ucEmployee1.Visible = false;
         }
 
         private void btnAddRoom_Click(object sender, EventArgs e)
@@ -45,7 +47,7 @@ namespace QuanLyKhachSan
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnCheckOut_Click(object sender, EventArgs e)
@@ -53,6 +55,20 @@ namespace QuanLyKhachSan
             PanelMoving.Left = btnCheckOut.Left + 25;
             ucCheckOut1.Visible = true;
             ucCheckOut1.BringToFront();
+        }
+
+        private void btnCustomerDetails_Click(object sender, EventArgs e)
+        {
+            PanelMoving.Left = btnCustomerDetails.Left + 25;
+            ucCustomerDetails1.Visible = true;
+            ucCustomerDetails1.BringToFront();
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            PanelMoving.Left = btnEmployee.Left + 25;
+            ucEmployee1.Visible = true;
+            ucEmployee1.BringToFront();
         }
     }
 }
