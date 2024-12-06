@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "E:\\UIT\\Clone Github\\Hotel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\hotel\\quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\hotel\\quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\hotel\\quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\hotel\\quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\uccheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,23 +51,11 @@
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/AAAAA/QuanLyKhachSan/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\uccheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\Hotel\\quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,18 +65,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UCEmployee.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "UCAddRoom.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCAddRoom.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\UCAddRoom.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T11:32:17.018Z",
+              "WhenOpened": "2024-12-04T12:20:19.512Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
@@ -94,31 +98,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UCCheckOut.cs",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCheckOut.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\UCCheckOut.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAASwBkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:00:28.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UCCustomerDetails.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCustomerDetails.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:05:40.647Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.cs [Design]",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\MainWindow.cs",
@@ -132,6 +111,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UCRegistration.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCRegistration.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCRegistration.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCRegistration.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\UCRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T20:43:46.727Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCEmployee.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs [Design]*",
+              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:32:17.018Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UCEmployee.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs*",
+              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:38:45.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCCustomerDetails.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCustomerDetails.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:05:40.647Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.Designer.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\MainWindow.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\MainWindow.Designer.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\MainWindow.Designer.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\MainWindow.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:43:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginWindow.cs [Design]",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\LoginWindow.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\LoginWindow.cs",
@@ -143,7 +184,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "UCAddRoom.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCAddRoom.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\UCAddRoom.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:59:43.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UCCheckOut.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCheckOut.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\UCCheckOut.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:00:28.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UCCustomerDetails.cs",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCustomerDetails.cs",
@@ -156,42 +222,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCEmployee.cs",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswCkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:38:45.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UCRegistration.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCRegistration.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCRegistration.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCRegistration.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCRegistration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T20:43:46.727Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "dbo.Customer [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/AAAAA/QuanLyKhachSan/True/SqlTable/dbo.Customer.sql",
               "ToolTip": "dbo.Customer [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-04T19:34:11.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T19:34:11.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "UCRegistration.cs",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCRegistration.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\UCRegistration.cs",
@@ -204,40 +244,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "UCCheckOut.cs [Design]",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCheckOut.cs",
               "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSan\\UCCheckOut.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:03:04.231Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\MainWindow.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\MainWindow.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\MainWindow.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\MainWindow.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAIA1wDEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:22:11.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UCAddRoom.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCAddRoom.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCAddRoom.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:20:19.512Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T21:03:04.231Z"
             }
           ]
         }

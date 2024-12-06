@@ -43,7 +43,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Honeydew;
+            this.guna2Panel1.BackColor = System.Drawing.Color.LightCyan;
             this.guna2Panel1.Controls.Add(this.lblError);
             this.guna2Panel1.Controls.Add(this.btnLogin);
             this.guna2Panel1.Controls.Add(this.txtPassword);

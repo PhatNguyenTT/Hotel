@@ -38,13 +38,13 @@
             this.btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.ucEmployee1 = new QuanLyKhachSan.UCEmployee();
             this.ucCustomerDetails1 = new QuanLyKhachSan.UCCustomerDetails();
             this.ucCheckOut1 = new QuanLyKhachSan.UCCheckOut();
             this.ucRegistration1 = new QuanLyKhachSan.UCRegistration();
             this.ucAddRoom1 = new QuanLyKhachSan.UCAddRoom();
+            this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -105,6 +105,8 @@
             this.btnEmployee.TabIndex = 0;
             this.btnEmployee.Text = "Nhân Viên";
             this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnEmployee.MouseEnter += new System.EventHandler(this.btnEmployee_MouseEnter);
+            this.btnEmployee.MouseLeave += new System.EventHandler(this.btnEmployee_MouseLeave);
             // 
             // btnCustomerDetails
             // 
@@ -125,6 +127,8 @@
             this.btnCustomerDetails.TabIndex = 0;
             this.btnCustomerDetails.Text = "Thông Tin Chi Tiết";
             this.btnCustomerDetails.Click += new System.EventHandler(this.btnCustomerDetails_Click);
+            this.btnCustomerDetails.MouseEnter += new System.EventHandler(this.btnCustomerDetails_MouseEnter);
+            this.btnCustomerDetails.MouseLeave += new System.EventHandler(this.btnCustomerDetails_MouseLeave);
             // 
             // btnRegister
             // 
@@ -145,6 +149,8 @@
             this.btnRegister.TabIndex = 0;
             this.btnRegister.Text = "Đăng Ký Khách Hàng";
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            this.btnRegister.MouseEnter += new System.EventHandler(this.btnRegister_MouseEnter);
+            this.btnRegister.MouseLeave += new System.EventHandler(this.btnRegister_MouseLeave);
             // 
             // btnCheckOut
             // 
@@ -165,6 +171,8 @@
             this.btnCheckOut.TabIndex = 0;
             this.btnCheckOut.Text = "Thanh Toán";
             this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
+            this.btnCheckOut.MouseEnter += new System.EventHandler(this.btnCheckOut_MouseEnter);
+            this.btnCheckOut.MouseLeave += new System.EventHandler(this.btnCheckOut_MouseLeave);
             // 
             // btnAddRoom
             // 
@@ -185,6 +193,8 @@
             this.btnAddRoom.TabIndex = 0;
             this.btnAddRoom.Text = "Thêm Phòng";
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
+            this.btnAddRoom.MouseEnter += new System.EventHandler(this.btnAddRoom_MouseEnter);
+            this.btnAddRoom.MouseLeave += new System.EventHandler(this.btnAddRoom_MouseLeave);
             // 
             // panel2
             // 
@@ -199,34 +209,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(2003, 893);
             this.panel2.TabIndex = 3;
-            // 
-            // PanelMoving
-            // 
-            this.PanelMoving.BackColor = System.Drawing.Color.CadetBlue;
-            this.PanelMoving.Location = new System.Drawing.Point(84, 143);
-            this.PanelMoving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.PanelMoving.Name = "PanelMoving";
-            this.PanelMoving.ShadowDecoration.Parent = this.PanelMoving;
-            this.PanelMoving.Size = new System.Drawing.Size(333, 10);
-            this.PanelMoving.TabIndex = 4;
-            // 
-            // btnClose
-            // 
-            this.btnClose.CheckedState.Parent = this.btnClose;
-            this.btnClose.CustomImages.Parent = this.btnClose;
-            this.btnClose.FillColor = System.Drawing.Color.Transparent;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.HoverState.Parent = this.btnClose;
-            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnClose.Location = new System.Drawing.Point(1987, 7);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.ShadowDecoration.Parent = this.btnClose;
-            this.btnClose.Size = new System.Drawing.Size(59, 57);
-            this.btnClose.TabIndex = 5;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // ucEmployee1
             // 
@@ -274,6 +256,34 @@
             this.ucAddRoom1.Size = new System.Drawing.Size(2003, 893);
             this.ucAddRoom1.TabIndex = 0;
             // 
+            // PanelMoving
+            // 
+            this.PanelMoving.BackColor = System.Drawing.Color.CadetBlue;
+            this.PanelMoving.Location = new System.Drawing.Point(84, 143);
+            this.PanelMoving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PanelMoving.Name = "PanelMoving";
+            this.PanelMoving.ShadowDecoration.Parent = this.PanelMoving;
+            this.PanelMoving.Size = new System.Drawing.Size(333, 10);
+            this.PanelMoving.TabIndex = 4;
+            // 
+            // btnClose
+            // 
+            this.btnClose.CheckedState.Parent = this.btnClose;
+            this.btnClose.CustomImages.Parent = this.btnClose;
+            this.btnClose.FillColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.HoverState.Parent = this.btnClose;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnClose.Location = new System.Drawing.Point(1987, 7);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.ShadowDecoration.Parent = this.btnClose;
+            this.btnClose.Size = new System.Drawing.Size(59, 57);
+            this.btnClose.TabIndex = 5;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 30;
@@ -304,7 +314,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1942, 1088);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.PanelMoving);

@@ -49,8 +49,9 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1500, 711);
+            this.panel1.Size = new System.Drawing.Size(2000, 875);
             this.panel1.TabIndex = 3;
             // 
             // cboCustomerType
@@ -70,10 +71,11 @@
             "Khách Hàng Đang Ở",
             "Khách Hàng Đã Thanh Toán"});
             this.cboCustomerType.ItemsAppearance.Parent = this.cboCustomerType;
-            this.cboCustomerType.Location = new System.Drawing.Point(557, 150);
+            this.cboCustomerType.Location = new System.Drawing.Point(743, 185);
+            this.cboCustomerType.Margin = new System.Windows.Forms.Padding(4);
             this.cboCustomerType.Name = "cboCustomerType";
             this.cboCustomerType.ShadowDecoration.Parent = this.cboCustomerType;
-            this.cboCustomerType.Size = new System.Drawing.Size(361, 36);
+            this.cboCustomerType.Size = new System.Drawing.Size(480, 36);
             this.cboCustomerType.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboCustomerType.TabIndex = 45;
             this.cboCustomerType.SelectedIndexChanged += new System.EventHandler(this.cboCustomerType_SelectedIndexChanged);
@@ -106,11 +108,13 @@
             this.dtgvCustomerDetails.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvCustomerDetails.EnableHeadersVisualStyles = false;
             this.dtgvCustomerDetails.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvCustomerDetails.Location = new System.Drawing.Point(48, 214);
+            this.dtgvCustomerDetails.Location = new System.Drawing.Point(64, 263);
+            this.dtgvCustomerDetails.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvCustomerDetails.Name = "dtgvCustomerDetails";
             this.dtgvCustomerDetails.RowHeadersVisible = false;
+            this.dtgvCustomerDetails.RowHeadersWidth = 51;
             this.dtgvCustomerDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvCustomerDetails.Size = new System.Drawing.Size(1388, 450);
+            this.dtgvCustomerDetails.Size = new System.Drawing.Size(1851, 554);
             this.dtgvCustomerDetails.TabIndex = 44;
             this.dtgvCustomerDetails.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dtgvCustomerDetails.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -140,9 +144,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(553, 92);
+            this.label8.Location = new System.Drawing.Point(737, 113);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 20);
+            this.label8.Size = new System.Drawing.Size(99, 25);
             this.label8.TabIndex = 25;
             this.label8.Text = "Tìm Kiếm";
             // 
@@ -150,9 +155,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 17);
+            this.label1.Location = new System.Drawing.Point(56, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(417, 35);
+            this.label1.Size = new System.Drawing.Size(526, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Thông Tin Chi Tiết Khách Hàng";
             // 
@@ -163,11 +169,12 @@
             // 
             // UCCustomerDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCCustomerDetails";
-            this.Size = new System.Drawing.Size(1503, 726);
+            this.Size = new System.Drawing.Size(2004, 894);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomerDetails)).EndInit();

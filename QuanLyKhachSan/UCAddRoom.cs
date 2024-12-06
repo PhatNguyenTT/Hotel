@@ -21,7 +21,7 @@ namespace QuanLyKhachSan
 
         private void UCAddRoom_Load(object sender, EventArgs e)
         {
-            query = "SELECT * FROM Rooms";
+            query = $@"SELECT * FROM Rooms";
             DataSet dataSet = func.getDataSet(query);
             dtgvAddRoom.DataSource = dataSet.Tables[0]; 
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,8 +11,10 @@ using System.Windows.Forms;
 
 namespace QuanLyKhachSan
 {
+
     public partial class MainWindow : Form
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -24,7 +27,7 @@ namespace QuanLyKhachSan
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            ucAddRoom1.Visible = false;
+            ucAddRoom1.Visible = true;
             ucRegistration1.Visible = false;
             ucCheckOut1.Visible = false;
             ucCustomerDetails1.Visible = false;
@@ -70,5 +73,55 @@ namespace QuanLyKhachSan
             ucEmployee1.Visible = true;
             ucEmployee1.BringToFront();
         }
+
+        private void btnAddRoom_MouseEnter(object sender, EventArgs e)
+        {
+            btnAddRoom.FillColor = Color.FromArgb(255, 123, 123);
+        }
+
+        private void btnAddRoom_MouseLeave(object sender, EventArgs e)
+        {
+            btnAddRoom.FillColor = Color.DodgerBlue;
+        }
+
+        private void btnRegister_MouseEnter(object sender, EventArgs e)
+        {
+            btnRegister.FillColor = Color.FromArgb(255, 123, 123);
+        }
+
+        private void btnRegister_MouseLeave(object sender, EventArgs e)
+        {
+            btnRegister.FillColor = Color.DodgerBlue;
+        }
+
+        private void btnCheckOut_MouseEnter(object sender, EventArgs e)
+        {
+            btnCheckOut.FillColor = Color.FromArgb(255, 123, 123);
+        }
+
+        private void btnCheckOut_MouseLeave(object sender, EventArgs e)
+        {
+            btnCheckOut.FillColor = Color.DodgerBlue;
+        }
+
+        private void btnCustomerDetails_MouseEnter(object sender, EventArgs e)
+        {
+            btnCustomerDetails.FillColor = Color.FromArgb(255, 123, 123);
+        }
+
+        private void btnCustomerDetails_MouseLeave(object sender, EventArgs e)
+        {
+            btnCustomerDetails.FillColor = Color.DodgerBlue;
+        }
+
+        private void btnEmployee_MouseEnter(object sender, EventArgs e)
+        {
+            btnEmployee.FillColor = Color.FromArgb(255, 123, 123);
+        }
+
+        private void btnEmployee_MouseLeave(object sender, EventArgs e)
+        {
+            btnEmployee.FillColor = Color.DodgerBlue;
+        }   
     }
 }

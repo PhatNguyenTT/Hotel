@@ -62,9 +62,10 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1500, 711);
+            this.panel1.Size = new System.Drawing.Size(2000, 875);
             this.panel1.TabIndex = 0;
             // 
             // dtgvAddRoom
@@ -78,7 +79,7 @@
             this.dtgvAddRoom.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -95,11 +96,13 @@
             this.dtgvAddRoom.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtgvAddRoom.EnableHeadersVisualStyles = false;
             this.dtgvAddRoom.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvAddRoom.Location = new System.Drawing.Point(48, 107);
+            this.dtgvAddRoom.Location = new System.Drawing.Point(64, 132);
+            this.dtgvAddRoom.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvAddRoom.Name = "dtgvAddRoom";
             this.dtgvAddRoom.RowHeadersVisible = false;
+            this.dtgvAddRoom.RowHeadersWidth = 51;
             this.dtgvAddRoom.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvAddRoom.Size = new System.Drawing.Size(823, 546);
+            this.dtgvAddRoom.Size = new System.Drawing.Size(1097, 672);
             this.dtgvAddRoom.TabIndex = 18;
             this.dtgvAddRoom.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dtgvAddRoom.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -137,10 +140,11 @@
             this.btnRoomAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRoomAdd.ForeColor = System.Drawing.Color.Black;
             this.btnRoomAdd.HoverState.Parent = this.btnRoomAdd;
-            this.btnRoomAdd.Location = new System.Drawing.Point(1175, 584);
+            this.btnRoomAdd.Location = new System.Drawing.Point(1567, 719);
+            this.btnRoomAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnRoomAdd.Name = "btnRoomAdd";
             this.btnRoomAdd.ShadowDecoration.Parent = this.btnRoomAdd;
-            this.btnRoomAdd.Size = new System.Drawing.Size(158, 52);
+            this.btnRoomAdd.Size = new System.Drawing.Size(211, 64);
             this.btnRoomAdd.TabIndex = 16;
             this.btnRoomAdd.Text = "Thêm";
             this.btnRoomAdd.Click += new System.EventHandler(this.btnRoomAdd_Click);
@@ -160,14 +164,14 @@
             this.txtRoomPrice.ForeColor = System.Drawing.Color.Black;
             this.txtRoomPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRoomPrice.HoverState.Parent = this.txtRoomPrice;
-            this.txtRoomPrice.Location = new System.Drawing.Point(972, 516);
-            this.txtRoomPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRoomPrice.Location = new System.Drawing.Point(1296, 635);
+            this.txtRoomPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtRoomPrice.Name = "txtRoomPrice";
             this.txtRoomPrice.PasswordChar = '\0';
             this.txtRoomPrice.PlaceholderText = "";
             this.txtRoomPrice.SelectedText = "";
             this.txtRoomPrice.ShadowDecoration.Parent = this.txtRoomPrice;
-            this.txtRoomPrice.Size = new System.Drawing.Size(361, 37);
+            this.txtRoomPrice.Size = new System.Drawing.Size(481, 46);
             this.txtRoomPrice.TabIndex = 15;
             // 
             // label5
@@ -175,9 +179,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(968, 456);
+            this.label5.Location = new System.Drawing.Point(1291, 561);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 20);
+            this.label5.Size = new System.Drawing.Size(43, 25);
             this.label5.TabIndex = 14;
             this.label5.Text = "Giá";
             // 
@@ -197,10 +202,11 @@
             "Đơn",
             "Đôi"});
             this.cboRoomBed.ItemsAppearance.Parent = this.cboRoomBed;
-            this.cboRoomBed.Location = new System.Drawing.Point(972, 380);
+            this.cboRoomBed.Location = new System.Drawing.Point(1296, 468);
+            this.cboRoomBed.Margin = new System.Windows.Forms.Padding(4);
             this.cboRoomBed.Name = "cboRoomBed";
             this.cboRoomBed.ShadowDecoration.Parent = this.cboRoomBed;
-            this.cboRoomBed.Size = new System.Drawing.Size(361, 36);
+            this.cboRoomBed.Size = new System.Drawing.Size(480, 36);
             this.cboRoomBed.TabIndex = 13;
             // 
             // label4
@@ -208,9 +214,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(968, 320);
+            this.label4.Location = new System.Drawing.Point(1291, 394);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 20);
+            this.label4.Size = new System.Drawing.Size(79, 25);
             this.label4.TabIndex = 12;
             this.label4.Text = "Giường";
             // 
@@ -230,10 +237,11 @@
             "Điều Hòa",
             "Không Điều Hòa"});
             this.cboRoomType.ItemsAppearance.Parent = this.cboRoomType;
-            this.cboRoomType.Location = new System.Drawing.Point(972, 244);
+            this.cboRoomType.Location = new System.Drawing.Point(1296, 300);
+            this.cboRoomType.Margin = new System.Windows.Forms.Padding(4);
             this.cboRoomType.Name = "cboRoomType";
             this.cboRoomType.ShadowDecoration.Parent = this.cboRoomType;
-            this.cboRoomType.Size = new System.Drawing.Size(361, 36);
+            this.cboRoomType.Size = new System.Drawing.Size(480, 36);
             this.cboRoomType.TabIndex = 10;
             // 
             // txtRoomNo
@@ -251,14 +259,14 @@
             this.txtRoomNo.ForeColor = System.Drawing.Color.Black;
             this.txtRoomNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRoomNo.HoverState.Parent = this.txtRoomNo;
-            this.txtRoomNo.Location = new System.Drawing.Point(972, 107);
-            this.txtRoomNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRoomNo.Location = new System.Drawing.Point(1296, 132);
+            this.txtRoomNo.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtRoomNo.Name = "txtRoomNo";
             this.txtRoomNo.PasswordChar = '\0';
             this.txtRoomNo.PlaceholderText = "";
             this.txtRoomNo.SelectedText = "";
             this.txtRoomNo.ShadowDecoration.Parent = this.txtRoomNo;
-            this.txtRoomNo.Size = new System.Drawing.Size(361, 37);
+            this.txtRoomNo.Size = new System.Drawing.Size(481, 46);
             this.txtRoomNo.TabIndex = 8;
             // 
             // label3
@@ -266,9 +274,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(968, 184);
+            this.label3.Location = new System.Drawing.Point(1291, 226);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 20);
+            this.label3.Size = new System.Drawing.Size(118, 25);
             this.label3.TabIndex = 9;
             this.label3.Text = "Loại Phòng";
             // 
@@ -277,9 +286,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(968, 47);
+            this.label2.Location = new System.Drawing.Point(1291, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 20);
+            this.label2.Size = new System.Drawing.Size(101, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Số Phòng";
             // 
@@ -287,9 +297,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 17);
+            this.label1.Location = new System.Drawing.Point(56, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 35);
+            this.label1.Size = new System.Drawing.Size(227, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Thêm Phòng";
             // 
@@ -300,11 +311,12 @@
             // 
             // UCAddRoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCAddRoom";
-            this.Size = new System.Drawing.Size(1503, 726);
+            this.Size = new System.Drawing.Size(2004, 894);
             this.Load += new System.EventHandler(this.UCAddRoom_Load);
             this.Enter += new System.EventHandler(this.UCAddRoom_Enter);
             this.Leave += new System.EventHandler(this.UCAddRoom_Leave);

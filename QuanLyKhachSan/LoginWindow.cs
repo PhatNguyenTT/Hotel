@@ -12,6 +12,8 @@ namespace QuanLyKhachSan
 {
     public partial class LoginWindow : Form
     {
+        function func = new function();
+        string query;
         public LoginWindow()
         {
             InitializeComponent();
@@ -24,10 +26,16 @@ namespace QuanLyKhachSan
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "a" &&  txtPassword.Text == "")
+            query = $@"SELECT userName, pass FROM Employee
+                    WHERE userName = '{txtUsername.Text}'
+                    AND pass = '{txtPassword.Text}'";
+            DataSet dataSet = func.getDataSet(query);
+
+            if (dataSet.Tables[0].Rows.Count != 0)
             {
                 lblError.Visible = false;
-                MainWindow window = new MainWindow(); 
+                MainWindow window = new MainWindow();
+                
                 this.Hide();
                 window.Show();
             }
