@@ -31,3 +31,20 @@ E:\UIT\Clone Github\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 E:\UIT\Clone Github\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCCheckOut.resources
 E:\UIT\Clone Github\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCCustomerDetails.resources
 E:\UIT\Clone Github\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCEmployee.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.LoginWindow.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainWindow.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCAddRoom.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCCheckOut.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCCustomerDetails.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCEmployee.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.UCRegistration.resources
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.CoreCompileInputs.cache
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKh.7BBD220C.Up2Date
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+E:\UIT\Clone Github\New folder\Hotel\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb

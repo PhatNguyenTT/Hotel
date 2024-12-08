@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace QuanLyKhachSan
 {
     public partial class UCCustomerDetails : UserControl
     {
+        string connectionString = "Data Source=AAAAA;Initial Catalog=QuanLyKhachSan;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         function func = new function();
         string query;
         public UCCustomerDetails()
@@ -21,33 +23,40 @@ namespace QuanLyKhachSan
 
         private void cboCustomerType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cboCustomerType.SelectedIndex == 0)
+            string baseQuery = @"SELECT Customer.customerID, Customer.customerName, Customer.mobile, Customer.nationality, Customer.gender, Customer.dob, Customer.idProof, customer.address,
+                         customer.checkin, Rooms.roomNo, Rooms.roomType, Rooms.bed, Rooms.price
+                         FROM Customer INNER JOIN Rooms
+                         ON Customer.roomID = Rooms.roomID";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                query = $@"SELECT Customer.customerID, Customer.customerName, Customer.mobile, Customer.nationality, Customer.gender, Customer.dob, Customer.idProof, customer.address,
-                        customer.checkin, Rooms.roomNo, Rooms.roomType, Rooms.bed, Rooms.price
-                        FROM Customer INNER JOIN Rooms
-                        ON Customer.roomID = Rooms.roomID";
-                getRecord(query);
-            }
-            else if(cboCustomerType.SelectedIndex == 1)
-            {
-                query = $@"SELECT Customer.customerID, Customer.customerName, Customer.mobile, Customer.nationality, Customer.gender, Customer.dob, Customer.idProof, customer.address,
-                        customer.checkin, Rooms.roomNo, Rooms.roomType, Rooms.bed, Rooms.price
-                        FROM Customer INNER JOIN Rooms
-                        ON Customer.roomID = Rooms.roomID
-                        WHERE checkout is NULL";
-                getRecord(query);
-            }
-            else if(cboCustomerType.SelectedIndex == 2)
-            {
-                query = $@"SELECT Customer.customerID, Customer.customerName, Customer.mobile, Customer.nationality, Customer.gender, Customer.dob, Customer.idProof, customer.address,
-                        customer.checkin, Rooms.roomNo, Rooms.roomType, Rooms.bed, Rooms.price
-                        FROM Customer INNER JOIN Rooms
-                        ON Customer.roomID = Rooms.roomID
-                        WHERE checkout is NOT NULL";
-                getRecord(query);
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.Connection = conn;
+
+                    if (cboCustomerType.SelectedIndex == 0)
+                    {
+                        cmd.CommandText = baseQuery;
+                    }
+                    else if (cboCustomerType.SelectedIndex == 1)
+                    {
+                        cmd.CommandText = baseQuery + " WHERE checkout IS NULL";
+                    }
+                    else if (cboCustomerType.SelectedIndex == 2)
+                    {
+                        cmd.CommandText = baseQuery + " WHERE checkout IS NOT NULL";
+                    }
+
+                    conn.Open();
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataSet dataSet = new DataSet();
+                    adapter.Fill(dataSet);
+
+                    dtgvCustomerDetails.DataSource = dataSet.Tables[0];
+                }
             }
         }
+
 
         private void getRecord(string query)
         {
