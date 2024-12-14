@@ -15,6 +15,30 @@ CREATE TABLE Rooms
 )
 GO
 
+ALTER TABLE Rooms
+ADD CONSTRAINT CHK_RoomPrice CHECK (price >= 0);
+GO
+
+ALTER TABLE Rooms
+ADD CONSTRAINT CHK_Booked CHECK (booked IN (N'YES', N'NO'));
+
+ALTER TABLE Rooms ADD CONSTRAINT UQ_RoomNo UNIQUE (roomNo);
+GO
+
+CREATE TABLE Bookings
+(
+    bookingID INT IDENTITY (1, 1) PRIMARY KEY,
+    roomNo NVARCHAR(250) NOT NULL,
+    customerID INT NOT NULL,
+    bookingDate DATE NOT NULL DEFAULT GETDATE()
+);
+GO
+
+ALTER TABLE Bookings
+ADD CONSTRAINT FK_Bookings_Rooms
+FOREIGN KEY (roomNo) REFERENCES Rooms(roomNo) ON DELETE CASCADE;
+
+
 CREATE TABLE Customer
 (
 	customerID INT IDENTITY PRIMARY KEY,
@@ -34,14 +58,31 @@ CREATE TABLE Customer
 )
 GO
 
+ALTER TABLE Customer
+DROP CONSTRAINT FK__Customer__roomID__1FCDBCEB; 
+ALTER TABLE Customer
+ADD CONSTRAINT FK_Customer_Rooms 
+FOREIGN KEY (roomID) REFERENCES dbo.Rooms(roomID) ON DELETE CASCADE;
+GO
+
+
 CREATE TABLE Employee
 (
 	employeeID INT IDENTITY PRIMARY KEY,
 	employeeName NVARCHAR(250) NOT NULL DEFAULT N'Không có tên',
-	mobile BIGINT NOT NULL DEFAULT 0,
+	mobile NVARCHAR(20) NOT NULL DEFAULT ' ',
 	gender NVARCHAR(50) NOT NULL DEFAULT N'Không xác định',
 	emailID NVARCHAR(120) NOT NULL DEFAULT N'Không có email',
 	userName NVARCHAR(150) NOT NULL DEFAULT N'Chưa có username',
 	pass NVARCHAR(150) NOT NULL DEFAULT N'Chưa có mật khẩu'
 )
 GO
+
+ALTER TABLE Employee
+ALTER COLUMN mobile NVARCHAR(20);
+ 
+ALTER TABLE Employee
+ADD CONSTRAINT DF_Employee_mobile_DefaultValue 
+DEFAULT '' FOR mobile;
+
+

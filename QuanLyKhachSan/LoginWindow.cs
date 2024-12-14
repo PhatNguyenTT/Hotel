@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace QuanLyKhachSan
 {
     public partial class LoginWindow : Form
     {
+        string connectionString = "Data Source=AAAAA;Initial Catalog=QuanLyKhachSan;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
         function func = new function();
         string query;
         public LoginWindow()
@@ -26,25 +28,38 @@ namespace QuanLyKhachSan
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            query = $@"SELECT userName, pass FROM Employee
-                    WHERE userName = '{txtUsername.Text}'
-                    AND pass = '{txtPassword.Text}'";
-            DataSet dataSet = func.getDataSet(query);
+            string query = @"SELECT userName, pass FROM Employee
+                     WHERE userName = @userName AND pass = @password";
 
-            //if (dataSet.Tables[0].Rows.Count != 0)
-            if(txtUsername.Text == "a")
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                lblError.Visible = false;
-                MainWindow window = new MainWindow();
-                
-                this.Hide();
-                window.Show();
-            }
-            else
-            {
-                lblError.Visible = true;
-                txtPassword.Text = "";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@userName", txtUsername.Text);
+                    cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataSet dataSet = new DataSet();
+
+                    conn.Open();
+                    adapter.Fill(dataSet);
+
+                    if (dataSet.Tables[0].Rows.Count != 0)
+                    {
+                        lblError.Visible = false;
+                        MainWindow window = new MainWindow();
+
+                        this.Hide();
+                        window.Show();
+                    }
+                    else
+                    {
+                        lblError.Visible = true;
+                        txtPassword.Text = "";
+                    }
+                }
             }
         }
+
     }
 }

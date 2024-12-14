@@ -89,8 +89,9 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1500, 711);
+            this.panel1.Size = new System.Drawing.Size(2000, 875);
             this.panel1.TabIndex = 1;
             // 
             // txtRoomPrice
@@ -108,15 +109,15 @@
             this.txtRoomPrice.ForeColor = System.Drawing.Color.Black;
             this.txtRoomPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtRoomPrice.HoverState.Parent = this.txtRoomPrice;
-            this.txtRoomPrice.Location = new System.Drawing.Point(1018, 528);
-            this.txtRoomPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRoomPrice.Location = new System.Drawing.Point(1357, 650);
+            this.txtRoomPrice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtRoomPrice.Name = "txtRoomPrice";
             this.txtRoomPrice.PasswordChar = '\0';
             this.txtRoomPrice.PlaceholderText = "";
             this.txtRoomPrice.ReadOnly = true;
             this.txtRoomPrice.SelectedText = "";
             this.txtRoomPrice.ShadowDecoration.Parent = this.txtRoomPrice;
-            this.txtRoomPrice.Size = new System.Drawing.Size(361, 37);
+            this.txtRoomPrice.Size = new System.Drawing.Size(481, 46);
             this.txtRoomPrice.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtRoomPrice.TabIndex = 42;
             // 
@@ -125,9 +126,10 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(1014, 473);
+            this.label14.Location = new System.Drawing.Point(1352, 582);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 20);
+            this.label14.Size = new System.Drawing.Size(87, 25);
             this.label14.TabIndex = 41;
             this.label14.Text = "Giá Tiền";
             // 
@@ -136,9 +138,10 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(1014, 346);
+            this.label13.Location = new System.Drawing.Point(1352, 426);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(81, 20);
+            this.label13.Size = new System.Drawing.Size(101, 25);
             this.label13.TabIndex = 40;
             this.label13.Text = "Số Phòng";
             // 
@@ -157,10 +160,11 @@
             this.cboRoomNo.Items.AddRange(new object[] {
             "123"});
             this.cboRoomNo.ItemsAppearance.Parent = this.cboRoomNo;
-            this.cboRoomNo.Location = new System.Drawing.Point(1018, 401);
+            this.cboRoomNo.Location = new System.Drawing.Point(1357, 494);
+            this.cboRoomNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboRoomNo.Name = "cboRoomNo";
             this.cboRoomNo.ShadowDecoration.Parent = this.cboRoomNo;
-            this.cboRoomNo.Size = new System.Drawing.Size(361, 36);
+            this.cboRoomNo.Size = new System.Drawing.Size(480, 36);
             this.cboRoomNo.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboRoomNo.TabIndex = 39;
             this.cboRoomNo.SelectedIndexChanged += new System.EventHandler(this.cboRoomNo_SelectedIndexChanged);
@@ -170,9 +174,10 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(1014, 93);
+            this.label12.Location = new System.Drawing.Point(1352, 114);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(63, 20);
+            this.label12.Size = new System.Drawing.Size(79, 25);
             this.label12.TabIndex = 38;
             this.label12.Text = "Giường";
             // 
@@ -192,10 +197,11 @@
             "Đơn",
             "Đôi"});
             this.cboRoomBed.ItemsAppearance.Parent = this.cboRoomBed;
-            this.cboRoomBed.Location = new System.Drawing.Point(1018, 148);
+            this.cboRoomBed.Location = new System.Drawing.Point(1357, 182);
+            this.cboRoomBed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboRoomBed.Name = "cboRoomBed";
             this.cboRoomBed.ShadowDecoration.Parent = this.cboRoomBed;
-            this.cboRoomBed.Size = new System.Drawing.Size(361, 36);
+            this.cboRoomBed.Size = new System.Drawing.Size(480, 36);
             this.cboRoomBed.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboRoomBed.TabIndex = 37;
             this.cboRoomBed.SelectedIndexChanged += new System.EventHandler(this.cboRoomBed_SelectedIndexChanged);
@@ -205,9 +211,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(1014, 220);
+            this.label9.Location = new System.Drawing.Point(1352, 271);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(94, 20);
+            this.label9.Size = new System.Drawing.Size(118, 25);
             this.label9.TabIndex = 36;
             this.label9.Text = "Loại Phòng";
             // 
@@ -227,10 +234,11 @@
             "Điều Hòa",
             "Không Điều Hòa"});
             this.cboRoomType.ItemsAppearance.Parent = this.cboRoomType;
-            this.cboRoomType.Location = new System.Drawing.Point(1018, 275);
+            this.cboRoomType.Location = new System.Drawing.Point(1357, 338);
+            this.cboRoomType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboRoomType.Name = "cboRoomType";
             this.cboRoomType.ShadowDecoration.Parent = this.cboRoomType;
-            this.cboRoomType.Size = new System.Drawing.Size(361, 36);
+            this.cboRoomType.Size = new System.Drawing.Size(480, 36);
             this.cboRoomType.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboRoomType.TabIndex = 35;
             this.cboRoomType.SelectedIndexChanged += new System.EventHandler(this.cboRoomType_SelectedIndexChanged);
@@ -242,12 +250,13 @@
             this.dtpCheckin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpCheckin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpCheckin.HoverState.Parent = this.dtpCheckin;
-            this.dtpCheckin.Location = new System.Drawing.Point(557, 654);
+            this.dtpCheckin.Location = new System.Drawing.Point(743, 805);
+            this.dtpCheckin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpCheckin.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpCheckin.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpCheckin.Name = "dtpCheckin";
             this.dtpCheckin.ShadowDecoration.Parent = this.dtpCheckin;
-            this.dtpCheckin.Size = new System.Drawing.Size(361, 36);
+            this.dtpCheckin.Size = new System.Drawing.Size(481, 44);
             this.dtpCheckin.TabIndex = 34;
             this.dtpCheckin.Value = new System.DateTime(2024, 12, 3, 5, 3, 14, 319);
             // 
@@ -256,9 +265,10 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(553, 599);
+            this.label10.Location = new System.Drawing.Point(737, 737);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 20);
+            this.label10.Size = new System.Drawing.Size(144, 25);
             this.label10.TabIndex = 32;
             this.label10.Text = "Ngày Đăng Ký";
             // 
@@ -277,14 +287,14 @@
             this.txtAddress.ForeColor = System.Drawing.Color.Black;
             this.txtAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddress.HoverState.Parent = this.txtAddress;
-            this.txtAddress.Location = new System.Drawing.Point(557, 274);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtAddress.Location = new System.Drawing.Point(743, 337);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
             this.txtAddress.PlaceholderText = "Nhập Địa Chỉ";
             this.txtAddress.SelectedText = "";
             this.txtAddress.ShadowDecoration.Parent = this.txtAddress;
-            this.txtAddress.Size = new System.Drawing.Size(361, 37);
+            this.txtAddress.Size = new System.Drawing.Size(481, 46);
             this.txtAddress.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtAddress.TabIndex = 31;
             // 
@@ -293,9 +303,10 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(553, 219);
+            this.label11.Location = new System.Drawing.Point(737, 270);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(61, 20);
+            this.label11.Size = new System.Drawing.Size(75, 25);
             this.label11.TabIndex = 30;
             this.label11.Text = "Địa Chỉ";
             // 
@@ -314,14 +325,14 @@
             this.txtIDProof.ForeColor = System.Drawing.Color.Black;
             this.txtIDProof.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtIDProof.HoverState.Parent = this.txtIDProof;
-            this.txtIDProof.Location = new System.Drawing.Point(557, 147);
-            this.txtIDProof.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIDProof.Location = new System.Drawing.Point(743, 181);
+            this.txtIDProof.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtIDProof.Name = "txtIDProof";
             this.txtIDProof.PasswordChar = '\0';
             this.txtIDProof.PlaceholderText = "Nhập CCCD";
             this.txtIDProof.SelectedText = "";
             this.txtIDProof.ShadowDecoration.Parent = this.txtIDProof;
-            this.txtIDProof.Size = new System.Drawing.Size(361, 37);
+            this.txtIDProof.Size = new System.Drawing.Size(481, 46);
             this.txtIDProof.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtIDProof.TabIndex = 26;
             // 
@@ -330,9 +341,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(553, 92);
+            this.label8.Location = new System.Drawing.Point(737, 113);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 20);
+            this.label8.Size = new System.Drawing.Size(66, 25);
             this.label8.TabIndex = 25;
             this.label8.Text = "CCCD";
             // 
@@ -343,12 +355,13 @@
             this.dtpDob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDob.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpDob.HoverState.Parent = this.dtpDob;
-            this.dtpDob.Location = new System.Drawing.Point(103, 654);
+            this.dtpDob.Location = new System.Drawing.Point(137, 805);
+            this.dtpDob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpDob.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpDob.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpDob.Name = "dtpDob";
             this.dtpDob.ShadowDecoration.Parent = this.dtpDob;
-            this.dtpDob.Size = new System.Drawing.Size(361, 36);
+            this.dtpDob.Size = new System.Drawing.Size(481, 44);
             this.dtpDob.TabIndex = 24;
             this.dtpDob.Value = new System.DateTime(2024, 12, 3, 5, 3, 14, 319);
             // 
@@ -357,9 +370,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(99, 473);
+            this.label6.Location = new System.Drawing.Point(132, 582);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 20);
+            this.label6.Size = new System.Drawing.Size(93, 25);
             this.label6.TabIndex = 23;
             this.label6.Text = "Giới Tính";
             // 
@@ -368,9 +382,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(99, 599);
+            this.label5.Location = new System.Drawing.Point(132, 737);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 20);
+            this.label5.Size = new System.Drawing.Size(107, 25);
             this.label5.TabIndex = 21;
             this.label5.Text = "Ngày Sinh";
             // 
@@ -389,14 +404,14 @@
             this.txtNationality.ForeColor = System.Drawing.Color.Black;
             this.txtNationality.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNationality.HoverState.Parent = this.txtNationality;
-            this.txtNationality.Location = new System.Drawing.Point(103, 401);
-            this.txtNationality.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNationality.Location = new System.Drawing.Point(137, 494);
+            this.txtNationality.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtNationality.Name = "txtNationality";
             this.txtNationality.PasswordChar = '\0';
             this.txtNationality.PlaceholderText = "Nhập Quốc Tịch";
             this.txtNationality.SelectedText = "";
             this.txtNationality.ShadowDecoration.Parent = this.txtNationality;
-            this.txtNationality.Size = new System.Drawing.Size(361, 37);
+            this.txtNationality.Size = new System.Drawing.Size(481, 46);
             this.txtNationality.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtNationality.TabIndex = 20;
             // 
@@ -405,9 +420,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(99, 346);
+            this.label4.Location = new System.Drawing.Point(132, 426);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 20);
+            this.label4.Size = new System.Drawing.Size(103, 25);
             this.label4.TabIndex = 19;
             this.label4.Text = "Quốc Tịch";
             // 
@@ -426,14 +442,14 @@
             this.txtPhoneNumber.ForeColor = System.Drawing.Color.Black;
             this.txtPhoneNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhoneNumber.HoverState.Parent = this.txtPhoneNumber;
-            this.txtPhoneNumber.Location = new System.Drawing.Point(103, 274);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(137, 337);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.PasswordChar = '\0';
             this.txtPhoneNumber.PlaceholderText = "Nhập Số Điện Thoại";
             this.txtPhoneNumber.SelectedText = "";
             this.txtPhoneNumber.ShadowDecoration.Parent = this.txtPhoneNumber;
-            this.txtPhoneNumber.Size = new System.Drawing.Size(361, 37);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(481, 46);
             this.txtPhoneNumber.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtPhoneNumber.TabIndex = 18;
             // 
@@ -442,9 +458,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(99, 219);
+            this.label3.Location = new System.Drawing.Point(132, 270);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 20);
+            this.label3.Size = new System.Drawing.Size(138, 25);
             this.label3.TabIndex = 17;
             this.label3.Text = "Số Điện Thoại";
             // 
@@ -461,10 +478,11 @@
             this.btnAllotCustomer.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAllotCustomer.ForeColor = System.Drawing.Color.Black;
             this.btnAllotCustomer.HoverState.Parent = this.btnAllotCustomer;
-            this.btnAllotCustomer.Location = new System.Drawing.Point(1221, 638);
+            this.btnAllotCustomer.Location = new System.Drawing.Point(1628, 785);
+            this.btnAllotCustomer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAllotCustomer.Name = "btnAllotCustomer";
             this.btnAllotCustomer.ShadowDecoration.Parent = this.btnAllotCustomer;
-            this.btnAllotCustomer.Size = new System.Drawing.Size(158, 52);
+            this.btnAllotCustomer.Size = new System.Drawing.Size(211, 64);
             this.btnAllotCustomer.TabIndex = 16;
             this.btnAllotCustomer.Text = "Đăng Ký";
             this.btnAllotCustomer.Click += new System.EventHandler(this.btnAllotCustomer_Click);
@@ -486,10 +504,11 @@
             "Nữ",
             "Khác"});
             this.cboGender.ItemsAppearance.Parent = this.cboGender;
-            this.cboGender.Location = new System.Drawing.Point(103, 528);
+            this.cboGender.Location = new System.Drawing.Point(137, 650);
+            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboGender.Name = "cboGender";
             this.cboGender.ShadowDecoration.Parent = this.cboGender;
-            this.cboGender.Size = new System.Drawing.Size(361, 36);
+            this.cboGender.Size = new System.Drawing.Size(480, 36);
             this.cboGender.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cboGender.TabIndex = 10;
             // 
@@ -508,14 +527,14 @@
             this.txtName.ForeColor = System.Drawing.Color.Black;
             this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtName.HoverState.Parent = this.txtName;
-            this.txtName.Location = new System.Drawing.Point(103, 147);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtName.Location = new System.Drawing.Point(137, 181);
+            this.txtName.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = '\0';
             this.txtName.PlaceholderText = "Nhập Họ và Tên";
             this.txtName.SelectedText = "";
             this.txtName.ShadowDecoration.Parent = this.txtName;
-            this.txtName.Size = new System.Drawing.Size(361, 37);
+            this.txtName.Size = new System.Drawing.Size(481, 46);
             this.txtName.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtName.TabIndex = 8;
             // 
@@ -524,9 +543,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(99, 92);
+            this.label2.Location = new System.Drawing.Point(132, 113);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 20);
+            this.label2.Size = new System.Drawing.Size(46, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Tên";
             // 
@@ -534,9 +554,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 17);
+            this.label1.Location = new System.Drawing.Point(56, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 35);
+            this.label1.Size = new System.Drawing.Size(161, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Đăng Ký";
             // 
@@ -547,11 +568,12 @@
             // 
             // UCRegistration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UCRegistration";
-            this.Size = new System.Drawing.Size(1503, 726);
+            this.Size = new System.Drawing.Size(2004, 894);
             this.Leave += new System.EventHandler(this.UCRegistration_Leave);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

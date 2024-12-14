@@ -102,13 +102,17 @@ namespace QuanLyKhachSan
 
         private void tabEmployee_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabEmployee.SelectedIndex == 1)
+            if (tabControl.SelectedIndex == 1)
             {
                 setEmployee(dtgvCustomerDetails);
             }
-            else if (tabEmployee.SelectedIndex == 2)
+            else if (tabControl.SelectedIndex == 2)
             {
                 setEmployee(dtgvCustomerDelete);
+            }
+            else if(tabControl.SelectedIndex == 3)
+            {
+                setEmployee(dtgvEmployeeChangePass);
             }
         }
 
@@ -155,6 +159,136 @@ namespace QuanLyKhachSan
         private void UCEmployee_Leave(object sender, EventArgs e)
         {
             clearData();
+        }
+
+        private void dtgvCustomerDelete_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dtgvCustomerDelete.Rows[e.RowIndex];
+
+                txtEmployeeID.Text = row.Cells["employeeID"].Value.ToString();
+                txtEmployeeName.Text = row.Cells["employeeName"].Value.ToString();
+                txtEmployeePhone.Text = row.Cells["mobile"].Value.ToString();
+                txtEmployeeEmail.Text = row.Cells["emailID"].Value.ToString();
+                cboEmployeeGender.Text = row.Cells["gender"].Value.ToString();
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (txtEmployeeID.Text != "") 
+            {
+                if (MessageBox.Show("Bạn có chắc chắn muốn cập nhật thông tin?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    string employeeID = txtEmployeeID.Text;
+                    string name = txtEmployeeName.Text;
+                    string phone = txtEmployeePhone.Text;
+                    string email = txtEmployeeEmail.Text;
+                    string gender = cboEmployeeGender.Text;
+
+                    if (name != "" && phone != "" && email != "" && gender != "")
+                    {
+                        string query = @"UPDATE Employee SET employeeName = @name, mobile = @phone, emailID = @Email, gender = @Gender
+                                         WHERE employeeID = @employeeID";
+
+                        using (SqlConnection con = new SqlConnection(connectionString))
+                        using (SqlCommand cmd = new SqlCommand(query, con))
+                        {
+                            cmd.Parameters.AddWithValue("@employeeID", employeeID);
+                            cmd.Parameters.AddWithValue("@name", name);
+                            cmd.Parameters.AddWithValue("@phone", phone);
+                            cmd.Parameters.AddWithValue("@Email", email);
+                            cmd.Parameters.AddWithValue("@Gender", gender);
+
+                            con.Open();
+                            int rowsAffected = cmd.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Thông tin nhân viên đã được cập nhật thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                tabEmployee_SelectedIndexChanged(this, null); 
+                                clearData(); 
+                            }
+                            else
+                            {
+                                MessageBox.Show("Cập nhật thất bại! Vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Vui lòng nhập đầy đủ thông tin nhân viên!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn nhân viên cần chỉnh sửa!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+            if (txtChangePassID.Text != "") 
+            {
+                string newPassword = txtNewPass.Text;
+                string reNewPassword = txtReNewPass.Text;
+
+                if (!string.IsNullOrEmpty(newPassword) && newPassword == reNewPassword)
+                {
+                    string query = @"UPDATE Employee SET pass = @newPassword
+                                    WHERE employeeID = @employeeID";
+
+                    using (SqlConnection con = new SqlConnection(connectionString))
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@newPassword", newPassword);
+                        cmd.Parameters.AddWithValue("@employeeID", txtChangePassID.Text); 
+
+                        try
+                        {
+                            con.Open();
+                            int rowsAffected = cmd.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                txtNewPass.Clear();
+                                txtReNewPass.Clear();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Không tìm thấy nhân viên! Vui lòng kiểm tra lại ID.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Lỗi trong quá trình đổi mật khẩu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mật khẩu mới không khớp hoặc trống! Vui lòng kiểm tra lại.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn nhân viên cần đổi mật khẩu!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+
+        private void dtgvEmployeeChangePass_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dtgvEmployeeChangePass.Rows[e.RowIndex];
+
+                txtChangePassID.Text = row.Cells["employeeID"].Value.ToString();
+                txtChangePassUsername.Text = row.Cells["userName"].Value.ToString();
+            }
         }
     }
 }
