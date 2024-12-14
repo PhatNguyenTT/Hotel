@@ -97,7 +97,7 @@ namespace QuanLyKhachSan
                 txtRoomPrice.Text != "")
             {
                 string name = txtName.Text;
-                Int64 phone = Int64.Parse(txtPhoneNumber.Text);
+                string phone = txtPhoneNumber.Text;
                 string nationality = txtNationality.Text;
                 string gender = cboGender.Text;
                 string dob = dtpDob.Value.ToString("yyyy-MM-dd");

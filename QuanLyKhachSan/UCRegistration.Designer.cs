@@ -89,7 +89,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(2000, 875);
             this.panel1.TabIndex = 1;
@@ -161,7 +161,7 @@
             "123"});
             this.cboRoomNo.ItemsAppearance.Parent = this.cboRoomNo;
             this.cboRoomNo.Location = new System.Drawing.Point(1357, 494);
-            this.cboRoomNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboRoomNo.Margin = new System.Windows.Forms.Padding(4);
             this.cboRoomNo.Name = "cboRoomNo";
             this.cboRoomNo.ShadowDecoration.Parent = this.cboRoomNo;
             this.cboRoomNo.Size = new System.Drawing.Size(480, 36);
@@ -198,7 +198,7 @@
             "Đôi"});
             this.cboRoomBed.ItemsAppearance.Parent = this.cboRoomBed;
             this.cboRoomBed.Location = new System.Drawing.Point(1357, 182);
-            this.cboRoomBed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboRoomBed.Margin = new System.Windows.Forms.Padding(4);
             this.cboRoomBed.Name = "cboRoomBed";
             this.cboRoomBed.ShadowDecoration.Parent = this.cboRoomBed;
             this.cboRoomBed.Size = new System.Drawing.Size(480, 36);
@@ -235,7 +235,7 @@
             "Không Điều Hòa"});
             this.cboRoomType.ItemsAppearance.Parent = this.cboRoomType;
             this.cboRoomType.Location = new System.Drawing.Point(1357, 338);
-            this.cboRoomType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboRoomType.Margin = new System.Windows.Forms.Padding(4);
             this.cboRoomType.Name = "cboRoomType";
             this.cboRoomType.ShadowDecoration.Parent = this.cboRoomType;
             this.cboRoomType.Size = new System.Drawing.Size(480, 36);
@@ -251,7 +251,7 @@
             this.dtpCheckin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpCheckin.HoverState.Parent = this.dtpCheckin;
             this.dtpCheckin.Location = new System.Drawing.Point(743, 805);
-            this.dtpCheckin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpCheckin.Margin = new System.Windows.Forms.Padding(4);
             this.dtpCheckin.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpCheckin.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpCheckin.Name = "dtpCheckin";
@@ -268,7 +268,7 @@
             this.label10.Location = new System.Drawing.Point(737, 737);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(144, 25);
+            this.label10.Size = new System.Drawing.Size(143, 25);
             this.label10.TabIndex = 32;
             this.label10.Text = "Ngày Đăng Ký";
             // 
@@ -356,7 +356,7 @@
             this.dtpDob.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.dtpDob.HoverState.Parent = this.dtpDob;
             this.dtpDob.Location = new System.Drawing.Point(137, 805);
-            this.dtpDob.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDob.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDob.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtpDob.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtpDob.Name = "dtpDob";
@@ -474,12 +474,12 @@
             this.btnAllotCustomer.CheckedState.ForeColor = System.Drawing.Color.White;
             this.btnAllotCustomer.CheckedState.Parent = this.btnAllotCustomer;
             this.btnAllotCustomer.CustomImages.Parent = this.btnAllotCustomer;
-            this.btnAllotCustomer.FillColor = System.Drawing.Color.White;
+            this.btnAllotCustomer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(123)))), ((int)(((byte)(255)))));
             this.btnAllotCustomer.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAllotCustomer.ForeColor = System.Drawing.Color.Black;
+            this.btnAllotCustomer.ForeColor = System.Drawing.Color.White;
             this.btnAllotCustomer.HoverState.Parent = this.btnAllotCustomer;
             this.btnAllotCustomer.Location = new System.Drawing.Point(1628, 785);
-            this.btnAllotCustomer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAllotCustomer.Margin = new System.Windows.Forms.Padding(4);
             this.btnAllotCustomer.Name = "btnAllotCustomer";
             this.btnAllotCustomer.ShadowDecoration.Parent = this.btnAllotCustomer;
             this.btnAllotCustomer.Size = new System.Drawing.Size(211, 64);
@@ -505,7 +505,7 @@
             "Khác"});
             this.cboGender.ItemsAppearance.Parent = this.cboGender;
             this.cboGender.Location = new System.Drawing.Point(137, 650);
-            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboGender.Margin = new System.Windows.Forms.Padding(4);
             this.cboGender.Name = "cboGender";
             this.cboGender.ShadowDecoration.Parent = this.cboGender;
             this.cboGender.Size = new System.Drawing.Size(480, 36);
@@ -557,7 +557,7 @@
             this.label1.Location = new System.Drawing.Point(56, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 43);
+            this.label1.Size = new System.Drawing.Size(165, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Đăng Ký";
             // 
@@ -570,8 +570,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCRegistration";
             this.Size = new System.Drawing.Size(2004, 894);
             this.Leave += new System.EventHandler(this.UCRegistration_Leave);

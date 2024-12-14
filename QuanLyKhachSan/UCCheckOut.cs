@@ -78,7 +78,7 @@ namespace QuanLyKhachSan
             {
                 ID = int.Parse(dtgvCheckOut.Rows[e.RowIndex].Cells[0].Value.ToString());
                 txtName.Text = dtgvCheckOut.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtRoomNumber.Text = dtgvCheckOut.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtRoomNumber.Text = dtgvCheckOut.Rows[e.RowIndex].Cells[9].Value.ToString();
             }
         }
 
@@ -97,7 +97,6 @@ namespace QuanLyKhachSan
                         {
                             try
                             {
-                                
                                 string updateCustomerQuery = @"UPDATE Customer 
                                                        SET checkoutStatus = @CheckoutStatus, 
                                                            checkout = @CheckoutDate 

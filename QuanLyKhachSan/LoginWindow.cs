@@ -29,7 +29,7 @@ namespace QuanLyKhachSan
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string query = @"SELECT userName, pass FROM Employee
-                     WHERE userName = @userName AND pass = @password";
+            WHERE userName = @userName AND pass = @password";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {

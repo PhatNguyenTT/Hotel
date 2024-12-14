@@ -212,8 +212,8 @@
             // 
             // ucEmployee1
             // 
-            this.ucEmployee1.BackColor = System.Drawing.Color.White;
-            this.ucEmployee1.Location = new System.Drawing.Point(-1, -1);
+            this.ucEmployee1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.ucEmployee1.Location = new System.Drawing.Point(-2, -1);
             this.ucEmployee1.Margin = new System.Windows.Forms.Padding(5);
             this.ucEmployee1.Name = "ucEmployee1";
             this.ucEmployee1.Size = new System.Drawing.Size(2004, 894);
@@ -221,8 +221,8 @@
             // 
             // ucCustomerDetails1
             // 
-            this.ucCustomerDetails1.BackColor = System.Drawing.Color.White;
-            this.ucCustomerDetails1.Location = new System.Drawing.Point(-3, -2);
+            this.ucCustomerDetails1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.ucCustomerDetails1.Location = new System.Drawing.Point(-2, 0);
             this.ucCustomerDetails1.Margin = new System.Windows.Forms.Padding(5);
             this.ucCustomerDetails1.Name = "ucCustomerDetails1";
             this.ucCustomerDetails1.Size = new System.Drawing.Size(2004, 894);
@@ -230,8 +230,8 @@
             // 
             // ucCheckOut1
             // 
-            this.ucCheckOut1.BackColor = System.Drawing.Color.White;
-            this.ucCheckOut1.Location = new System.Drawing.Point(-3, -2);
+            this.ucCheckOut1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.ucCheckOut1.Location = new System.Drawing.Point(-2, -1);
             this.ucCheckOut1.Margin = new System.Windows.Forms.Padding(5);
             this.ucCheckOut1.Name = "ucCheckOut1";
             this.ucCheckOut1.Size = new System.Drawing.Size(2004, 894);
@@ -239,8 +239,8 @@
             // 
             // ucRegistration1
             // 
-            this.ucRegistration1.BackColor = System.Drawing.Color.White;
-            this.ucRegistration1.Location = new System.Drawing.Point(-3, -1);
+            this.ucRegistration1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.ucRegistration1.Location = new System.Drawing.Point(-2, 0);
             this.ucRegistration1.Margin = new System.Windows.Forms.Padding(5);
             this.ucRegistration1.Name = "ucRegistration1";
             this.ucRegistration1.Size = new System.Drawing.Size(2004, 894);
@@ -248,7 +248,7 @@
             // 
             // ucAddRoom1
             // 
-            this.ucAddRoom1.BackColor = System.Drawing.Color.White;
+            this.ucAddRoom1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ucAddRoom1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ucAddRoom1.Location = new System.Drawing.Point(-3, -1);
             this.ucAddRoom1.Margin = new System.Windows.Forms.Padding(5);
