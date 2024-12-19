@@ -103,7 +103,7 @@
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.HoverState.Parent = this.txtPassword;
-            this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
+            this.txtPassword.IconLeft = global::QuanLyKhachSan.Properties.Resources.password;
             this.txtPassword.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtPassword.Location = new System.Drawing.Point(611, 242);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
@@ -132,7 +132,7 @@
             this.txtUsername.ForeColor = System.Drawing.Color.Black;
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.HoverState.Parent = this.txtUsername;
-            this.txtUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtUsername.IconLeft")));
+            this.txtUsername.IconLeft = global::QuanLyKhachSan.Properties.Resources.user;
             this.txtUsername.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtUsername.Location = new System.Drawing.Point(611, 126);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
@@ -156,7 +156,7 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Image = global::QuanLyKhachSan.Properties.Resources.hotel;
             this.guna2PictureBox1.Location = new System.Drawing.Point(68, 82);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "E:\\UIT\\Clone Github\\New folder\\Hotel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\new folder\\hotel\\quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\loginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\new folder\\hotel\\quanlykhachsan\\loginwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\loginwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\new folder\\hotel\\quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|e:\\uit\\clone github\\new folder\\hotel\\quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucaddroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\ucregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\uccheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|solutionrelative:quanlykhachsan\\uccustomerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73EA2CFB-0342-4D3F-982B-D1EABC3E71FE}|QuanLyKhachSan\\QuanLyKhachSan.csproj|E:\\UIT\\Clone Github\\New folder\\Hotel\\quanlykhachsan\\ucemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,83 +54,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCAddRoom.cs",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCAddRoom.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
-              "RelativeToolTip": "QuanLyKhachSan\\UCAddRoom.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA1wCEAAAAMAAAA",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.Designer.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\LoginWindow.Designer.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.Designer.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\LoginWindow.Designer.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAtwHUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:15:09.001Z",
+              "WhenOpened": "2024-12-17T07:02:27.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.cs",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\LoginWindow.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.cs",
+              "RelativeToolTip": "QuanLyKhachSan\\LoginWindow.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAhwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:02:19.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\MainWindow.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\MainWindow.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\MainWindow.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\MainWindow.cs [Design]",
+              "Title": "LoginWindow.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\LoginWindow.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\LoginWindow.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\LoginWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:08:00.516Z",
+              "WhenOpened": "2024-12-17T06:55:02.423Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UCCustomerDetails.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCustomerDetails.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCCustomerDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:05:12.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UCEmployee.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCEmployee.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:04:24.409Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UCCheckOut.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCCheckOut.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCCheckOut.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCCheckOut.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:03:42.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UCRegistration.cs [Design]",
-              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCRegistration.cs",
-              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCRegistration.cs",
-              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCRegistration.cs [Design]",
-              "RelativeToolTip": "QuanLyKhachSan\\UCRegistration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:03:22.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UCAddRoom.cs [Design]",
               "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs",
               "RelativeDocumentMoniker": "QuanLyKhachSan\\UCAddRoom.cs",
               "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCAddRoom.cs [Design]",
               "RelativeToolTip": "QuanLyKhachSan\\UCAddRoom.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T20:03:18.527Z",
+              "WhenOpened": "2024-12-17T06:55:01.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UCEmployee.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCEmployee.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\UCEmployee.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\UCEmployee.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\UCEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:54:58.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.cs [Design]",
+              "DocumentMoniker": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\MainWindow.cs",
+              "RelativeDocumentMoniker": "QuanLyKhachSan\\MainWindow.cs",
+              "ToolTip": "E:\\UIT\\Clone Github\\New folder\\Hotel\\QuanLyKhachSan\\MainWindow.cs [Design]",
+              "RelativeToolTip": "QuanLyKhachSan\\MainWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:53:13.211Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -97,6 +97,8 @@
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
             this.btnEmployee.HoverState.Parent = this.btnEmployee;
+            this.btnEmployee.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Image")));
+            this.btnEmployee.ImageSize = new System.Drawing.Size(50, 50);
             this.btnEmployee.Location = new System.Drawing.Point(1565, 4);
             this.btnEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEmployee.Name = "btnEmployee";
@@ -119,6 +121,8 @@
             this.btnCustomerDetails.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetails.HoverState.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerDetails.Image")));
+            this.btnCustomerDetails.ImageSize = new System.Drawing.Size(50, 50);
             this.btnCustomerDetails.Location = new System.Drawing.Point(1196, 2);
             this.btnCustomerDetails.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCustomerDetails.Name = "btnCustomerDetails";
@@ -141,6 +145,8 @@
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
             this.btnRegister.HoverState.Parent = this.btnRegister;
+            this.btnRegister.Image = ((System.Drawing.Image)(resources.GetObject("btnRegister.Image")));
+            this.btnRegister.ImageSize = new System.Drawing.Size(50, 50);
             this.btnRegister.Location = new System.Drawing.Point(457, 4);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
@@ -163,6 +169,8 @@
             this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
+            this.btnCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("btnCheckOut.Image")));
+            this.btnCheckOut.ImageSize = new System.Drawing.Size(50, 50);
             this.btnCheckOut.Location = new System.Drawing.Point(827, 2);
             this.btnCheckOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCheckOut.Name = "btnCheckOut";
@@ -185,6 +193,8 @@
             this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.HoverState.Parent = this.btnAddRoom;
+            this.btnAddRoom.Image = ((System.Drawing.Image)(resources.GetObject("btnAddRoom.Image")));
+            this.btnAddRoom.ImageSize = new System.Drawing.Size(50, 50);
             this.btnAddRoom.Location = new System.Drawing.Point(88, 2);
             this.btnAddRoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddRoom.Name = "btnAddRoom";
